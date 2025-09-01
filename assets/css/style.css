@@ -120,7 +120,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: rgba(1, 4, 136, 0.9);
+  background: #C9A908;
 }
 
 #header.header-transparent {
@@ -128,7 +128,7 @@ h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(1, 4, 136, 0.9);
+  background: #C9A908;
   height: 60px;
 }
 
@@ -149,7 +149,9 @@ h6 {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 140px;
+   height: auto;
+  width: auto;
 }
 
 /*--------------------------------------------------------------
@@ -247,7 +249,7 @@ h6 {
   font-size: 14px;
   font-weight: 500;
   text-transform: none;
-  color: #01036f;
+  color: #C9A908;
 }
 
 .navbar .dropdown ul a i {
@@ -318,7 +320,7 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(1, 3, 91, 0.9);
+  background: #C9A908;
   transition: 0.3s;
   z-index: 999;
 }
@@ -351,13 +353,13 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #0205a1;
+  color: #C9A908;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #3f43fd;
+  color: #C9A908;
 }
 
 .navbar-mobile .getstarted,
@@ -419,7 +421,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(2, 5, 161, 0.91);
+  background: #C9A908;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -637,7 +639,7 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #010483;
+  color: #C9A908;
 }
 
 /*--------------------------------------------------------------
@@ -712,7 +714,7 @@ section {
 .about .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
-  color: #010483;
+  color: #C9A908;
   margin-bottom: 15px;
 }
 
@@ -754,7 +756,7 @@ section {
 }
 
 .about .icon-box .title a {
-  color: #343a40;
+  color: #3f3b25;
   transition: 0.3s;
 }
 
@@ -779,7 +781,7 @@ section {
 .about .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#3f43fd 50%, rgba(63, 67, 253, 0.4) 52%);
+  background: radial-gradient(#C9A908 50%, rgba(240, 191, 85, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -815,14 +817,14 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(63, 67, 253, 0.7);
+  border: 5px solid #C9A908;
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
 }
 
 .about .play-btn:hover::after {
-  border-left: 15px solid #3f43fd;
+  border-left: 15px solid #C9A908;
   transform: scale(20);
 }
 
@@ -881,12 +883,12 @@ section {
 }
 
 .features .icon-box h3 a {
-  color: #010483;
+  color: #C9A908;
   transition: ease-in-out 0.3s;
 }
 
 .features .icon-box h3 a:hover {
-  color: #01036f;
+  color: #C9A908;
 }
 
 .features .icon-box:hover {
@@ -931,7 +933,7 @@ section {
   font-size: 36px;
   display: block;
   font-weight: 600;
-  color: #010483;
+  color: #C9A908;
 }
 
 .counts .count-box p {
@@ -951,7 +953,7 @@ section {
 .details .content h3 {
   font-weight: 600;
   font-size: 26px;
-  color: #010483;
+  color: #C9A908;
 }
 
 .details .content ul {
@@ -1008,7 +1010,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(1, 3, 111, 0.8);
+  background: #C9A908;
 }
 
 .testimonials .section-header {
@@ -1139,7 +1141,7 @@ section {
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 16px;
-  color: #01036f;
+  color: #C9A908;
   position: relative;
   padding-bottom: 10px;
 }
@@ -1150,7 +1152,7 @@ section {
   display: block;
   width: 50px;
   height: 1px;
-  background: #0d12fc;
+  background: #C9A908;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -1159,7 +1161,7 @@ section {
   font-style: italic;
   display: block;
   font-size: 13px;
-  color: #01036f;
+  color: #C9A908;
 }
 
 .team .member .social {
@@ -1168,7 +1170,7 @@ section {
 
 .team .member .social a {
   transition: color 0.3s;
-  color: #01036f;
+  color: #C9A908;
 }
 
 .team .member .social a:hover {
@@ -1382,7 +1384,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #3f43fd;
+  color: #C9A908;
   float: left;
   width: 44px;
   height: 44px;
@@ -1399,14 +1401,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #010483;
+  color: #C9A908;
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #0205a1;
+  color: #070708;
 }
 
 .contact .info .email,
@@ -1513,7 +1515,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #010351;
+  background: #C9A908;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -1525,7 +1527,7 @@ section {
 
 #footer .footer-top .footer-info {
   margin-bottom: 15px;
-  background: #010246;
+  background: #6d5b03;
   color: #fff;
   border-top: 4px solid #1acc8d;
   text-align: center;
@@ -1647,7 +1649,7 @@ section {
 }
 
 #footer .copyright {
-  border-top: 1px solid #010479;
+  border-top: 1px solid #080703;
   text-align: center;
   padding-top: 30px;
 }
