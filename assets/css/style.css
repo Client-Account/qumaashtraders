@@ -463,6 +463,26 @@ h6 {
   background: #17b57d;
 }
 
+.view-certification {
+  /* style=letter-spacing: 1px; background: #1acc8d; color: white; border: none; border-radius: 25px; padding: 10px 20px; font-size: 16px; font-weight: 600;" */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  background: #1acc8d;
+  border: none;
+}
+
+.view-certification:hover {
+  background: #17b57d;
+}
+
+
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
@@ -1638,6 +1658,8 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
+
 
 @media (max-width: 575px) {
   #footer .footer-top .footer-info {
